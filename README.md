@@ -78,9 +78,6 @@
 </div>
 
 
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/kishanBhandary/kishanBhandary/output/snake.svg" alt="Snake animation" />
 
 ###
 

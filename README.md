@@ -5,7 +5,6 @@
 
 - 📫 How to reach me **kishanbhandary0@gmail.com**
 
-- 
 <br>
 <br>
 

@@ -6,9 +6,10 @@
 - 📫 How to reach me **kishanbhandary0@gmail.com**
 
 - 
+<br>
+<br>
 
 <h3 align="left">Connect with me:</h3>
-
 
 <div align="left">
   <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="47" height="35" alt="instagram logo"  />
@@ -23,18 +24,8 @@
 
 ###
 
-
-
-<br/></br>
-
-
-<h3 align="left">🔥   My Stats :</h3>
-
-###
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=kishanBhandary&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
-</div>
+<br>
+<br>
 
 
 
@@ -77,6 +68,23 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" height="40" alt="dart logo"  />
 </div>
+
+
+<h3 align="left">🔥   My Stats :</h3>
+
+###
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=kishanBhandary&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
+</div>
+
+
+<br clear="both">
+
+<img src="https://raw.githubusercontent.com/kishanBhandary/kishanBhandary/output/snake.svg" alt="Snake animation" />
+
+###
+
 
 ###
 

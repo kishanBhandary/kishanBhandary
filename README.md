@@ -59,6 +59,9 @@ I’m constantly exploring new tools, frameworks, and technologies to enhance my
 <p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=kishanBhandary&show_icons=true&theme=tokyonight" alt="GitHub Stats" /> <br> <img src="https://streak-stats.demolab.com?user=kishanBhandary&theme=tokyonight&hide_border=true" alt="GitHub Streak" /> <br> <img src="https://github-readme-activity-graph.vercel.app/graph?username=kishanBhandary&theme=github-dark&hide_border=true&area=true" alt="GitHub Activity Graph" /> </p>
 
 
+![snake gif](https://raw.githubusercontent.com/kishanBhandary/kishanBhandary/output/github-contribution-grid-snake.gif)
+
+
 
 
 

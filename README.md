@@ -1,4 +1,6 @@
-## Hi there! 👋
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=30&pause=1000&center=true&vCenter=true&color=00A8E8&width=500&lines=Hi+I'm+Kishan+C+Bhandary" alt="Typing SVG" />
+</p>
 
 👋 Hi there!
 I'm Kishan C Bhandary, a passionate Information Science student at AJ Institute of Engineering and Technology, Mangalore. I'm deeply enthusiastic about technology, problem-solving, and building meaningful solutions that can make a difference.
@@ -54,16 +56,7 @@ I’m constantly exploring new tools, frameworks, and technologies to enhance my
 ## GitHub Stats
 
  
-
-<!-- GitHub Stats -->
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kishanBhandary&show_icons=true&theme=tokyonight&title_color=00A8E8&icon_color=00A8E8&text_color=00A8E8&border_color=00A8E8)
-
-<!-- GitHub Streak -->
-[![GitHub Streak](https://streak-stats.demolab.com?user=kishanBhandary&theme=tokyonight&hide_border=true&ring=00A8E8&fire=00A8E8&currStreakLabel=00A8E8)](https://git.io/streak-stats)
-
-<!-- GitHub Activity Graph -->
-[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=kishanBhandary&theme=react-dark&hide_border=true&area=true&color=00A8E8&line=00A8E8&point=00A8E8)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=kishanBhandary&show_icons=true&theme=tokyonight" alt="GitHub Stats" /> <br> <img src="https://streak-stats.demolab.com?user=kishanBhandary&theme=tokyonight&hide_border=true" alt="GitHub Streak" /> <br> <img src="https://github-readme-activity-graph.vercel.app/graph?username=kishanBhandary&theme=github-dark&hide_border=true&area=true" alt="GitHub Activity Graph" /> </p>
 
 
 

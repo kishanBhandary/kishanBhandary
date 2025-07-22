@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=30&pause=1000&center=true&vCenter=true&color=00A8E8&width=500&lines=Welcome+to+My+GitHub+Profile!;I'm+Exploring+the+World+of+Code;Let's+Build+Something+Awesome" alt="Typing SVG" />
-</p>
+<p align="center"> <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=30&pause=1000&center=true&vCenter=true&color=00A8E8&width=500&lines=Hi+I'm+Kishan+C+Bhandary" alt="Typing SVG" /> </p
 
 
 👋 Hi there!

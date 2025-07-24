@@ -56,7 +56,6 @@ I’m constantly exploring new tools, frameworks, and technologies to enhance my
 
  
 <br>
-<img alt="snake eating my contributions" src="https://raw.githubusercontent.com/kishanBhandary/kishanBhandary/output/github-contribution-grid-snake.svg" />
 
 <br/><br/><br/>
 </div>
@@ -77,8 +76,6 @@ I’m constantly exploring new tools, frameworks, and technologies to enhance my
 <hr/>
 
 <br/>
-
-![snake gif](https://raw.githubusercontent.com/kishanBhandary/kishanBhandary/output/github-contribution-grid-snake.gif)
 
 
 

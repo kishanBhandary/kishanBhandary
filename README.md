@@ -43,13 +43,6 @@ I’m constantly exploring new tools, frameworks, and technologies to enhance my
                                                                         |___/ 
 ```
 
-## My Talks
-
-## 🎤 Talks & Sessions
-
-- [Exploring Cloud & AI at CCD 2025](https://www.linkedin.com/posts/kishanbhandary_cloud-community-day-ccd2025-activity-1234567890123456789/) – Shared insights and key takeaways from Cloud Community Day 2025, covering AI, LLMs, and modern cloud tools.
-- [Building Java Web Apps with Servlets & JSP](#) – An introductory session on creating dynamic web applications using Java EE technologies.
-- [Innovating in the Public Sector using Tech](#) – Discussed student-led innovations to improve agriculture, health, and education using modern technologies.
 
 
 ## GitHub Stats

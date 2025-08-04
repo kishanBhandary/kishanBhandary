@@ -75,17 +75,21 @@ I’m constantly exploring new tools, frameworks, and technologies to enhance my
 
 
 
-## Connect with Me
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/kishan-c-bhandary-476375297/?originalSubdomain=in" target="_blank">
-    <img height="40" style="margin-right:30px; filter: invert(21%) sepia(96%) saturate(1069%) hue-rotate(185deg) brightness(94%) contrast(88%);" src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" />
-  </a>
-
-  
-  <a href="mailto:kishanbhandary0@gmail.com" target="_blank">
-    <img height="40" style="filter: invert(29%) sepia(91%) saturate(2385%) hue-rotate(345deg) brightness(95%) contrast(90%);" src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/gmail.svg" alt="Gmail" />
-  </a>
-</p>
+<h3 align='center'><i>Social Media Handles</i></h3>
+<p align='center'>
+ 
+<table width="100" align='center'>
+<tr>
+    <td align='center' width="60">
+        <a href="https://twitter.com/AshutoshD07"><img src="https://cdn-icons-png.flaticon.com/512/1409/1409937.png" width="60"></a>
+    </td>
+    <td align='center' width="60">
+        <a href="https://www.instagram.com/07_ashutosh_dwivedi/"><img src="https://cdn-icons-png.flaticon.com/512/1409/1409946.png"></a>
+    </td>
+    <td align='center' width="60">
+        <a href="https://www.linkedin.com/in/kishan-c-bhandary-476375297/ "><img src="https://cdn-icons-png.flaticon.com/512/1409/1409945.png" width="60"></a>
+    </td>
+</tr>
+</table>
 
 

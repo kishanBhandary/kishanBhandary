@@ -24,6 +24,23 @@ Contributing to open-source and collaborating with the developer community
 
 
 
+<h3 align='center'><i>Social Media Handles</i></h3>
+<p align='center'>
+ 
+<table width="100" align='center'>
+<tr>
+<!--     <td align='center' width="60">
+        <a href="https://twitter.com/AshutoshD07"><img src="https://cdn-icons-png.flaticon.com/512/1409/1409937.png" width="60"></a>
+    </td> -->
+    <td align='center' width="60">
+        <a href= "https://www.instagram.com/"><img src="https://cdn-icons-png.flaticon.com/512/1409/1409946.png"></a>
+    </td>
+    <td align='center' width="60">
+        <a href="https://www.linkedin.com/in/kishan-c-bhandary-476375297/ "><img src="https://cdn-icons-png.flaticon.com/512/1409/1409945.png" width="60"></a>
+    </td>
+</tr>
+</table>
+
 
 ## About Me
 
@@ -72,24 +89,5 @@ I’m constantly exploring new tools, frameworks, and technologies to enhance my
 
 
 
-
-
-
-<h3 align='center'><i>Social Media Handles</i></h3>
-<p align='center'>
- 
-<table width="100" align='center'>
-<tr>
-<!--     <td align='center' width="60">
-        <a href="https://twitter.com/AshutoshD07"><img src="https://cdn-icons-png.flaticon.com/512/1409/1409937.png" width="60"></a>
-    </td> -->
-    <td align='center' width="60">
-        <a href= "https://www.instagram.com/"><img src="https://cdn-icons-png.flaticon.com/512/1409/1409946.png"></a>
-    </td>
-    <td align='center' width="60">
-        <a href="https://www.linkedin.com/in/kishan-c-bhandary-476375297/ "><img src="https://cdn-icons-png.flaticon.com/512/1409/1409945.png" width="60"></a>
-    </td>
-</tr>
-</table>
 
 

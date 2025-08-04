@@ -80,11 +80,11 @@ I’m constantly exploring new tools, frameworks, and technologies to enhance my
  
 <table width="100" align='center'>
 <tr>
-    <td align='center' width="60">
+<!--     <td align='center' width="60">
         <a href="https://twitter.com/AshutoshD07"><img src="https://cdn-icons-png.flaticon.com/512/1409/1409937.png" width="60"></a>
-    </td>
+    </td> -->
     <td align='center' width="60">
-        <a href="https://www.instagram.com/07_ashutosh_dwivedi/"><img src="https://cdn-icons-png.flaticon.com/512/1409/1409946.png"></a>
+        <a href= "https://www.instagram.com/"><img src="https://cdn-icons-png.flaticon.com/512/1409/1409946.png"></a>
     </td>
     <td align='center' width="60">
         <a href="https://www.linkedin.com/in/kishan-c-bhandary-476375297/ "><img src="https://cdn-icons-png.flaticon.com/512/1409/1409945.png" width="60"></a>

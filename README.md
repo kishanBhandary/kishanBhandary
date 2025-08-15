@@ -73,7 +73,10 @@ I’m constantly exploring new tools, frameworks, and technologies to enhance my
 
 <h2 align="center">⚡ Stats ⚡</h2>
 <div align="center">
-  <img width="390" src="https://github-readme-streak-stats-salesp07.vercel.app/?user=kishanBhandary&count_private=true&theme=react&border_radius=10&cache_bust=20250806" alt="streak stats"/>
+<a href="https://git.io/streak-stats">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=kishanBhandary&theme=react&hide_border=true" alt="GitHub Streak" />
+</a>
+
   
   <img width="390" src="https://github-readme-stats.vercel.app/api?username=kishanBhandary&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10&cache_bust=20250806" alt="readme stats" />
   

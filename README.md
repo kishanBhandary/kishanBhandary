@@ -71,20 +71,16 @@ I’m constantly exploring new tools, frameworks, and technologies to enhance my
   </a>
 </p>
 
-<h2 align="center">⚡ Stats ⚡</h2>
-<div align="center">
-<a href="https://git.io/streak-stats">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=kishanBhandary&theme=react&hide_border=true" alt="GitHub Streak" />
-</a>
 
-  
-  <img width="390" src="https://github-readme-stats.vercel.app/api?username=kishanBhandary&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10&cache_bust=20250806" alt="readme stats" />
-  
-  <br/>
-  
-  <img width="325" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kishanBhandary&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats&cache_bust=20250806" alt="top langs" />
-</div>
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=kishanBhandary&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=kishanBhandary&theme=tokyonight&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=kishanBhandary&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
+---
+[![](https://visitcount.itsvg.in/api?id=kishanBhandary&icon=0&color=0)](https://visitcount.itsvg.in)
+
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 
 
 <br/><br/>

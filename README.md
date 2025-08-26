@@ -74,7 +74,8 @@ I’m constantly exploring new tools, frameworks, and technologies to enhance my
 
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=kishanBhandary&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=kishanBhandary&theme=tokyonight&hide_border=false)<br/>
+![GitHub Streak](https://nirzak-streak-stats.vercel.app/?user=kishanBhandary&theme=tokyonight&hide_border=false)
+
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=kishanBhandary&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
 ---

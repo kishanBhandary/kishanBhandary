@@ -61,35 +61,54 @@ I’m constantly exploring new tools, frameworks, and technologies to enhance my
 ```
 
 
-<h2 align="center">
-  <i><a href="https://github.com/Ashutosh00710/github-readme-activity-graph">Activity Graph 📈</a></i>
-</h2>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kishanBhandary&theme=react&area=true&hide_border=true" width="100%">
-</p>
-
----
-
-# 📊 GitHub Stats:
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kishanBhandary&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false" height="180px"/>
-  <img src="https://streak-stats.demolab.com?user=kishanBhandary&theme=tokyonight&hide_border=false" height="180px"/>
-</p>
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=kishanBhandary&theme=tokyonight&hide_border=false)
-
+## 📈 Activity Graph
+<div align="center">
+  <img
+    alt="Kishan's Activity Graph"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=kishanBhandary&theme=react&area=true&hide_border=true"
+    width="100%" />
+</div>
 
 ---
 
-<p align="center">
+## 📊 GitHub Stats
+<div align="center">
+
+  <img
+    alt="Kishan's GitHub stats"
+    src="https://github-readme-stats.vercel.app/api?username=kishanBhandary&show_icons=true&theme=tokyonight&hide_border=false"
+    height="180" />
+
+  <img
+    alt="Kishan's GitHub streak"
+    src="https://streak-stats.demolab.com?user=kishanBhandary&theme=tokyonight&hide_border=false"
+    height="180" />
+
+</div>
+
+<div align="center">
+  <img
+    alt="Top Languages"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=kishanBhandary&layout=compact&theme=tokyonight&hide_border=false" />
+</div>
+
+---
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=kishanBhandary&theme=tokyonight&hide_border=false" alt="Kishan's GitHub streak" height="180" />
+</div>
+
+
+<div align="center">
   <a href="https://visitcount.itsvg.in">
-    <img src="https://visitcount.itsvg.in/api?id=kishanBhandary&icon=0&color=0" />
+    <img src="https://visitcount.itsvg.in/api?id=kishanBhandary&icon=0&color=0" alt="Profile visit count" />
   </a>
-</p>
+</div>
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
+
+
+
 
 
 

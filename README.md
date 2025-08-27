@@ -59,37 +59,37 @@ I’m constantly exploring new tools, frameworks, and technologies to enhance my
  |_|\_\_|___/_| |_|\__,_|_| |_|____/|_| |_|\__,_|_| |_|\__,_|\__,_|_|   \__, |
                                                                         |___/ 
 ```
-<h2 align='center'><i><a href="https://github.com/Ashutosh00710/github-readme-activity-graph">Activity Graph 📈</a></i></h2>
+
+
+<h2 align="center">
+  <i><a href="https://github.com/Ashutosh00710/github-readme-activity-graph">Activity Graph 📈</a></i>
+</h2>
 
 <p align="center">
-  <a href="https://github.com/Ashutosh00710/github-readme-activity-graph#gh-light-mode-only">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=kishanBhandary&theme=react&area=true&hide_border=true#gh-light-mode-only" width="100%">
-  </a>
-
-  <a href="https://github.com/Ashutosh00710/github-readme-activity-graph#gh-dark-mode-only">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=kishanBhandary&theme=dracula&area=true&hide_border=true#gh-dark-mode-only" width="100%">
-  </a>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kishanBhandary&theme=react&area=true&hide_border=true" width="100%">
 </p>
-
-
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=kishanBhandary&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false)<br/>
-
-![GitHub Streak](https://streak-stats.demolab.com?user=kishanBhandary&theme=tokyonight&hide_border=false)
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=kishanBhandary&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
 ---
 
-[![](https://visitcount.itsvg.in/api?id=kishanBhandary&icon=0&color=0)](https://visitcount.itsvg.in)
+# 📊 GitHub Stats:
 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=kishanBhandary&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false" height="180px"/>
+  <img src="https://streak-stats.demolab.com?user=kishanBhandary&theme=tokyonight&hide_border=false" height="180px"/>
+</p>
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=kishanBhandary&theme=tokyonight&hide_border=false)
+
+
+---
+
+<p align="center">
+  <a href="https://visitcount.itsvg.in">
+    <img src="https://visitcount.itsvg.in/api?id=kishanBhandary&icon=0&color=0" />
+  </a>
+</p>
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
-
-
-<br/><br/>
-
-
 
 
 

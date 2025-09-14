@@ -8,7 +8,7 @@ I'm Kishan C Bhandary, a passionate Information Science student at AJ Institute 
 
 Exploring the latest trends in software development and emerging technologies
 
-Working on innovative projects that combine creativity with functionality
+Working on innovative projects that combine creativity with functionalit
 
 Learning about  Java full-stack development
 

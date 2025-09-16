@@ -1,3 +1,7 @@
+[![An image of @kishanbhandary's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/kishanbhandary)](https://holopin.io/@kishanbhandary)
+
+
+
 <p align="center"> <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=30&pause=1000&center=true&vCenter=true&color=00A8E8&width=500&lines=Hi+I'm+Kishan+C+Bhandary" alt="Typing SVG" /> </p
 
 

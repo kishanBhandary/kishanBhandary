@@ -14,7 +14,7 @@ Exploring the latest trends in software development and emerging technologies
 
 Working on innovative projects that combine creativity with functionality
 
-Learning about  Java full-stack developmemttttt
+Learning about  Java full-stack developmemtttttt
 
 🚀 Currently, I'm:
 

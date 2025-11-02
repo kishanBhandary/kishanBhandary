@@ -53,7 +53,7 @@ Contributing to open-source and collaborating with the developer community
 
 ## About Me
 
-📍 Based in Mangalore, I’m currently pursuing my degree in Information Science at AJ Institute of Engineering and Technology. I’m an enthusiastic learner with a strong passion for technology, especially in the areas of web development and software engineering.
+📍 Based in Mangalore, I’m currently pursuing my degree in Information Science at AJ Institute of Engineering and Technology. I’m an enthusiastic learner with a strong passion for technology, especially in the areas of web development and software engineerin.
 
 I’m constantly exploring new tools, frameworks, and technologies to enhance my skills and contribute to impactful projects. Whether it’s building efficient backend systems or crafting intuitive front-end interfaces, I enjoy turning ideas into real-world solutions.
 

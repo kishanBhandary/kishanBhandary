@@ -67,6 +67,9 @@ I’m constantly exploring new tools, frameworks, and technologies to enhance my
  |_|\_\_|___/_| |_|\__,_|_| |_|____/|_| |_|\__,_|_| |_|\__,_|\__,_|_|   \__, |
                                                                         |___/ 
 ```
+
+[![Kishan's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=kishanBhandary&theme=github-compact)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=kishanBhandary&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=kishanBhandary&theme=dark&hide_border=false)<br/>

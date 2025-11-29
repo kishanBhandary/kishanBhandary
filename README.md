@@ -1,13 +1,75 @@
-[![An image of @kishanbhandary's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/kishanbhandary)](https://holopin.io/@kishanbhandary)
+<!-- 🌟 Stunning Animated Title with Premium Fonts & Effects -->
+<div align="center">
+  
+  <!-- Main animated typing effect with beautiful font -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=Righteous&weight=700&size=45&duration=2500&pause=1000&color=6A5AFF&background=00000000&center=true&vCenter=true&multiline=true&repeat=true&width=850&height=120&lines=💠+Holopin+Badge+Gallery+💠;✨+Achievement+Collection+✨;🚀+Open+Source+Journey+🚀" alt="Animated Title" />
+  
+  <!-- Gradient line separator -->
+  <img width="800" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=header&animation=twinkling" />
+  
+</div>
 
+<!-- 🎯 Stylish Subtitle Animation -->
+<div align="center">
+  
+  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=500&size=22&duration=3000&pause=800&color=00D9FF&center=true&vCenter=true&width=700&lines=Showcasing+my+developer+journey+🌈;Collecting+badges%2C+building+projects+💎;Contributing+to+open+source+magic+✨" alt="Subtitle Animation" />
+  
+  <br><br>
+  
+</div>
 
+<!-- 🏆 Holopin Badge Board with Premium Styling -->
+<div align="center">
+  
+  <!-- Badge board with glow effect -->
+  <a href="https://holopin.io/@kishanbhandary" target="_blank">
+    <img src="https://holopin.me/kishanbhandary" alt="@kishanbhandary's Holopin Badge Collection" width="900" />
+  </a>
+  
+  <br><br>
+  
+  <!-- Animated pointer -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=Quicksand&weight=600&size=20&duration=2000&pause=1500&color=FFD700&center=true&vCenter=true&width=600&lines=👆+Click+to+explore+my+complete+collection;🎨+Visit+my+Holopin+profile+for+more;⭐+New+badges+added+regularly!" alt="Call to Action" />
+  
+</div>
 
+<!-- 🎨 Decorative Wave Section -->
+<div align="center">
+  
+  <br>
+  <img width="800" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,16,20&height=80&section=footer&animation=fadeIn" />
+  
+</div>
 
+<!-- 💎 Achievement Stats & Badges -->
+<div align="center">
+  
+  <img src="https://img.shields.io/badge/🏆_Holopin-Profile-blueviolet?style=for-the-badge&labelColor=1a1a2e" alt="Holopin" />
+  <img src="https://img.shields.io/badge/✨_Open_Source-Contributor-00ff88?style=for-the-badge&labelColor=1a1a2e" alt="Open Source" />
+  <img src="https://img.shields.io/badge/💎_Badges-Collecting-ffd700?style=for-the-badge&labelColor=1a1a2e" alt="Badges" />
+  <img src="https://img.shields.io/badge/🚀_Journey-Ongoing-ff6b6b?style=for-the-badge&labelColor=1a1a2e" alt="Journey" />
+  
+</div>
 
+<!-- ✨ Motivational Section -->
+<div align="center">
+  
+  <br><br>
+  
+  <img src="https://readme-typing-svg.herokuapp.com?font=Caveat&weight=700&size=28&duration=4000&pause=2000&color=FF6AC1&center=true&vCenter=true&width=800&lines=Keep+Coding+💻+Keep+Creating+🎨+Keep+Growing+🌱;Every+badge+tells+a+story+of+dedication+📖;Building+the+future%2C+one+commit+at+a+time+⚡" alt="Motivation" />
+  
+  <br><br>
+  
+  <!-- Final gradient wave -->
+  <img width="800" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,6,12,20&height=60&section=footer" />
+  
+</div>
 
+---
 
-
-<p align="center"> <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=30&pause=1000&center=true&vCenter=true&color=00A8E8&width=500&lines=Hi+I'm+Kishan+C+Bhandary" alt="Typing SVG" /> </p
+<div align="center">
+  <sub>💙 Crafted with passion for open source | Powered by dedication & coffee ☕</sub>
+</div>
 
 
 👋 Hi there!

@@ -1,76 +1,43 @@
-<!-- 🌟 Stunning Animated Title with Premium Fonts & Effects -->
 <div align="center">
-  
-  <!-- Main animated typing effect with beautiful font -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Righteous&weight=700&size=45&duration=2500&pause=1000&color=6A5AFF&background=00000000&center=true&vCenter=true&multiline=true&repeat=true&width=850&height=120&lines=💠+Holopin+Badge+Gallery+💠;✨+Achievement+Collection+✨;🚀+Open+Source+Journey+🚀" alt="Animated Title" />
-  
-  <!-- Gradient line separator -->
-  <img width="800" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=header&animation=twinkling" />
-  
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=200&section=header&text=Holopin%20Badges&fontSize=80&fontColor=fff&animation=fadeIn&fontAlignY=35" />
+
+## ✨ My Badge Collection
+
+<p>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=1000&color=667EEA&center=true&vCenter=true&multiline=true&width=800&height=80&lines=Celebrating+achievements+in+open+source;Every+badge+tells+a+story+of+learning;Join+me+on+this+coding+journey" />
+</p>
+
+<br>
+
+<a href="https://holopin.io/@kishanbhandary">
+  <img src="https://holopin.me/kishanbhandary" width="100%" alt="Holopin Badge Board" />
+</a>
+
+<br><br>
+
+<table>
+  <tr>
+    <td align="center">🎯</td>
+    <td><b>Active Contributor</b></td>
+    <td align="center">🏆</td>
+    <td><b>Badge Collector</b></td>
+    <td align="center">💡</td>
+    <td><b>Always Learning</b></td>
+  </tr>
+</table>
+
+<br>
+
+<a href="https://holopin.io/@kishanbhandary">
+  <img src="https://img.shields.io/badge/View_Profile-Holopin-7C3AED?style=for-the-badge&logo=&logoColor=white" />
+</a>
+
+<br><br>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:764ba2,100:667eea&height=120&section=footer" />
+
 </div>
-
-<!-- 🎯 Stylish Subtitle Animation -->
-<div align="center">
-  
-  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=500&size=22&duration=3000&pause=800&color=00D9FF&center=true&vCenter=true&width=700&lines=Showcasing+my+developer+journey+🌈;Collecting+badges%2C+building+projects+💎;Contributing+to+open+source+magic+✨" alt="Subtitle Animation" />
-  
-  <br><br>
-  
-</div>
-
-<!-- 🏆 Holopin Badge Board with Premium Styling -->
-<div align="center">
-  
-  <!-- Badge board with glow effect -->
-  <a href="https://holopin.io/@kishanbhandary" target="_blank">
-    <img src="https://holopin.me/kishanbhandary" alt="@kishanbhandary's Holopin Badge Collection" width="900" />
-  </a>
-  
-  <br><br>
-  
-  <!-- Animated pointer -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Quicksand&weight=600&size=20&duration=2000&pause=1500&color=FFD700&center=true&vCenter=true&width=600&lines=👆+Click+to+explore+my+complete+collection;🎨+Visit+my+Holopin+profile+for+more;⭐+New+badges+added+regularly!" alt="Call to Action" />
-  
-</div>
-
-<!-- 🎨 Decorative Wave Section -->
-<div align="center">
-  
-  <br>
-  <img width="800" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,16,20&height=80&section=footer&animation=fadeIn" />
-  
-</div>
-
-<!-- 💎 Achievement Stats & Badges -->
-<div align="center">
-  
-  <img src="https://img.shields.io/badge/🏆_Holopin-Profile-blueviolet?style=for-the-badge&labelColor=1a1a2e" alt="Holopin" />
-  <img src="https://img.shields.io/badge/✨_Open_Source-Contributor-00ff88?style=for-the-badge&labelColor=1a1a2e" alt="Open Source" />
-  <img src="https://img.shields.io/badge/💎_Badges-Collecting-ffd700?style=for-the-badge&labelColor=1a1a2e" alt="Badges" />
-  <img src="https://img.shields.io/badge/🚀_Journey-Ongoing-ff6b6b?style=for-the-badge&labelColor=1a1a2e" alt="Journey" />
-  
-</div>
-
-<!-- ✨ Motivational Section -->
-<div align="center">
-  
-  <br><br>
-  
-  <img src="https://readme-typing-svg.herokuapp.com?font=Caveat&weight=700&size=28&duration=4000&pause=2000&color=FF6AC1&center=true&vCenter=true&width=800&lines=Keep+Coding+💻+Keep+Creating+🎨+Keep+Growing+🌱;Every+badge+tells+a+story+of+dedication+📖;Building+the+future%2C+one+commit+at+a+time+⚡" alt="Motivation" />
-  
-  <br><br>
-  
-  <!-- Final gradient wave -->
-  <img width="800" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,6,12,20&height=60&section=footer" />
-  
-</div>
-
----
-
-<div align="center">
-  <sub>💙 Crafted with passion for open source | Powered by dedication & coffee ☕</sub>
-</div>
-
 
 👋 Hi there!
 I'm Kishan C Bhandary, a passionate Information Science student at AJ Institute of Engineering and Technology, Mangalore. I'm deeply enthusiastic about technology, problem-solving, and building meaningful solutions that can make a difference.

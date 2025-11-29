@@ -1,43 +1,4 @@
-<div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=200&section=header&text=Holopin%20Badges&fontSize=80&fontColor=fff&animation=fadeIn&fontAlignY=35" />
-
-## ✨ My Badge Collection
-
-<p>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=1000&color=667EEA&center=true&vCenter=true&multiline=true&width=800&height=80&lines=Celebrating+achievements+in+open+source;Every+badge+tells+a+story+of+learning;Join+me+on+this+coding+journey" />
-</p>
-
-<br>
-
-<a href="https://holopin.io/@kishanbhandary">
-  <img src="https://holopin.me/kishanbhandary" width="100%" alt="Holopin Badge Board" />
-</a>
-
-<br><br>
-
-<table>
-  <tr>
-    <td align="center">🎯</td>
-    <td><b>Active Contributor</b></td>
-    <td align="center">🏆</td>
-    <td><b>Badge Collector</b></td>
-    <td align="center">💡</td>
-    <td><b>Always Learning</b></td>
-  </tr>
-</table>
-
-<br>
-
-<a href="https://holopin.io/@kishanbhandary">
-  <img src="https://img.shields.io/badge/View_Profile-Holopin-7C3AED?style=for-the-badge&logo=&logoColor=white" />
-</a>
-
-<br><br>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:764ba2,100:667eea&height=120&section=footer" />
-
-</div>
+[![An image of @kishanbhandary's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/kishanbhandary)](https://holopin.io/@kishanbhandary)
 
 👋 Hi there!
 I'm Kishan C Bhandary, a passionate Information Science student at AJ Institute of Engineering and Technology, Mangalore. I'm deeply enthusiastic about technology, problem-solving, and building meaningful solutions that can make a difference.

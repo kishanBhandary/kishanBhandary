@@ -12,7 +12,6 @@ Working on innovative projects that combine creativity with functionality
 Learning about  Java full-stack developmemt
 
 🚀 Currently, I'm:
-
 Building impactful academic and personal projects
 
 Continuously improving my skills in Java, Web Development, IoT, and Software Engineering

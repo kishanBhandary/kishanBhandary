@@ -13,9 +13,7 @@ Learning about  Java full-stack developmemt
 
 🚀 Currently, I'm:
 Building impactful academic and personal projects
-
 Continuously improving my skills in Java, Web Development, IoT, and Software Engineering
-
 Contributing to open-source and collaborating with the developer community
 
 🔗 Let’s connect and create something awesome together!

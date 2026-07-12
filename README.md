@@ -8,4 +8,4 @@
 
 ---
 
-*This profile README was automatically generated with an identical design to Andrew6rant's profile.*
+*This profile README was automatically generated with an identical design to KishanBhandary's profile.*

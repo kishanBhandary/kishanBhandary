@@ -50,14 +50,14 @@ text, tspan { white-space: pre; }
 </text>
 <text x="390" y="30" fill="#c9d1d9">
 <tspan x="390" y="30">kishan@bhandary</tspan> -———————————————————————————————————————————-——
-<tspan x="390" y="50"><tspan class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................... </tspan><tspan class="value">Linux (Ubuntu 24.04 LTS)</tspan></tspan>
+<tspan x="390" y="50"><tspan class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................... </tspan><tspan class="value">Linux,Fedora,KaliLinux,MintLinux, Ubuntu</tspan></tspan>
 <tspan x="390" y="70"><tspan class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">21 years, 7 months, 20 days</tspan></tspan>
 <tspan x="390" y="90"><tspan class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">AJ Institute of Engineering &amp; Tech</tspan></tspan>
 <tspan x="390" y="110"><tspan class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">Information Science &amp; Engineering</tspan></tspan>
 <tspan x="390" y="130"><tspan class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> .......................... </tspan><tspan class="value">VS Code, Neovim, IntelliJ</tspan></tspan>
 <tspan x="390" y="150" class="cc">. </tspan>
-<tspan x="390" y="170"><tspan class="cc">. </tspan><tspan class="key">Languages.Programming</tspan>:<tspan class="cc"> ........ </tspan><tspan class="value">Python, JS, TS, Go, C++</tspan></tspan>
-<tspan x="390" y="190"><tspan class="cc">. </tspan><tspan class="key">Languages.Markup</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">HTML, CSS, SQL, Markdown</tspan></tspan>
+<tspan x="390" y="170"><tspan class="cc">. </tspan><tspan class="key">Languages.Programming</tspan>:<tspan class="cc"> ........ </tspan><tspan class="value">Python, JS, TS, Java, C++,C</tspan></tspan>
+<tspan x="390" y="190"><tspan class="cc">. </tspan><tspan class="key">Languages.Markup</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">HTML, CSS, SQL, SpringBoot,Nextjs,React,Supabase</tspan></tspan>
 <tspan x="390" y="210"><tspan class="cc">. </tspan><tspan class="key">Languages.Real</tspan>:<tspan class="cc"> ............... </tspan><tspan class="value">English, Kannada, Hindi</tspan></tspan>
 <tspan x="390" y="230" class="cc">. </tspan>
 <tspan x="390" y="250"><tspan class="cc">. </tspan><tspan class="key">Hobbies.Software</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">Open Source, Web Dev, Automation</tspan></tspan>

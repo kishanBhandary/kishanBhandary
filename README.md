@@ -1,4 +1,4 @@
-# Hi there! 👋
+
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg">
@@ -8,4 +8,4 @@
 
 ---
 
-*This profile README was automatically generated with an identical design to KishanBhandary's profile.*
+

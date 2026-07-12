@@ -91,7 +91,7 @@ def generate_svg(mode, ascii_rows):
         f'<tspan x="390" y="30">kishan@bhandary</tspan> -———————————————————————————————————————————-——',
         
         # Section 1: System Info
-        f'<tspan x="390" y="50">{get_leader_line("OS", "Linux (Ubuntu 24.04 LTS)")}</tspan>',
+        f'<tspan x="390" y="50">{get_leader_line("OS", "Linux,Fedora,KaliLinux,MintLinux, Ubuntu")}</tspan>',
         f'<tspan x="390" y="70">{get_leader_line("Uptime", "21 years, 7 months, 20 days")}</tspan>',
         f'<tspan x="390" y="90">{get_leader_line("Host", "AJ Institute of Engineering &amp; Tech")}</tspan>',
         f'<tspan x="390" y="110">{get_leader_line("Kernel", "Information Science &amp; Engineering")}</tspan>',
@@ -99,8 +99,8 @@ def generate_svg(mode, ascii_rows):
         f'<tspan x="390" y="150" class="cc">. </tspan>', # Spacer
         
         # Section 2: Languages
-        f'<tspan x="390" y="170">{get_leader_line("Languages.Programming", "Python, JS, TS, Go, C++")}</tspan>',
-        f'<tspan x="390" y="190">{get_leader_line("Languages.Markup", "HTML, CSS, SQL, Markdown")}</tspan>',
+        f'<tspan x="390" y="170">{get_leader_line("Languages.Programming", "Python, JS, TS, Java, C++,C")}</tspan>',
+        f'<tspan x="390" y="190">{get_leader_line("Languages.Markup", "HTML, CSS, SQL, SpringBoot,Nextjs,React,Supabase")}</tspan>',
         f'<tspan x="390" y="210">{get_leader_line("Languages.Real", "English, Kannada, Hindi")}</tspan>',
         f'<tspan x="390" y="230" class="cc">. </tspan>', # Spacer
         
@@ -194,7 +194,7 @@ def main():
 
 ---
 
-*This profile README was automatically generated with an identical design to Andrew6rant's profile.*
+*This profile README was automatically generated with an identical design to KishanBhandary's profile.*
 """
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(readme_content)

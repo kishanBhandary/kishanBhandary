@@ -1,4 +1,3 @@
-[![An image of @kishanbhandary's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/kishanbhandary)](https://holopin.io/@kishanbhandary)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg?v=1783871870">
@@ -37,3 +36,4 @@
 
 I’m constantly exploring new tools, frameworks, and technologies to enhance my skills and contribute to impactful projects. Whether it’s building efficient backend systems or crafting intuitive front-end interfaces, I enjoy turning ideas into real-world solutions.
 
+[![An image of @kishanbhandary's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/kishanbhandary)](https://holopin.io/@kishanbhandary)

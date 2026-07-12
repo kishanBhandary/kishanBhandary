@@ -119,8 +119,8 @@ def generate_svg(mode, ascii_rows):
         # Section 5: GitHub Stats
         f'<tspan x="390" y="430">- GitHub Stats</tspan> -—————————————————————————————————————————-——',
         # Hardcoded aligned lines for repos, commits, loc
-        f'<tspan x="390" y="450"><tspan class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">45</tspan> {{<tspan class="key">Contributed</tspan>: <tspan class="value">18</tspan>}} | <tspan class="key">Stars</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">15</tspan></tspan>',
-        f'<tspan x="390" y="470"><tspan class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">1,248</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">19</tspan></tspan>',
+        f'<tspan x="390" y="450"><tspan class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">105</tspan> {{<tspan class="key">Contributed</tspan>: <tspan class="value">70</tspan>}} | <tspan class="key">Stars</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">15</tspan></tspan>',
+        f'<tspan x="390" y="470"><tspan class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">5,248</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">19</tspan></tspan>',
         f'<tspan x="390" y="490"><tspan class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc">. </tspan><tspan class="value">78,412</tspan> ( <tspan class="key" style="fill: #3fb950 if mode == "dark" else "#1a7f37";">85,214</tspan>++, <tspan style="fill: #f85149 if mode == "dark" else "#cf222e";">6,802</tspan>-- )</tspan>',
         f'<tspan x="390" y="510" class="cc">. </tspan><tspan style="fill: #3fb950 if mode == "dark" else "#1a7f37";">kishan@bhandary</tspan><tspan>:~$ </tspan><tspan class="blinking-cursor">█</tspan>',
     ]

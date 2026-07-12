@@ -184,17 +184,15 @@ def main():
         f.write(light_svg)
         
     print("Generating README.md...")
-    readme_content = """# Hi there! 👋
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg">
-  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg">
-  <img alt="Kishan Bhandary Profile Card" src="dark_mode.svg" width="985" height="530">
+    import time
+    version = int(time.time())
+    readme_content = f"""<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg?v={version}">
+  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg?v={version}">
+  <img alt="Kishan Bhandary Profile Card" src="dark_mode.svg?v={version}" width="985" height="530">
 </picture>
 
 ---
-
-*This profile README was automatically generated with an identical design to KishanBhandary's profile.*
 """
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(readme_content)

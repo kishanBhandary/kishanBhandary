@@ -30,7 +30,7 @@
 </tr>
 </table>
 
-## About Me
+## About Me 
 
 📍 Based in Mangalore, I’m currently pursuing my degree in Information Science at AJ Institute of Engineering and Technology. I’m an enthusiastic learner with a strong passion for technology, especially in the areas of web development and software engineerin.
 

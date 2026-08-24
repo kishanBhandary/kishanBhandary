@@ -1,13 +1,9 @@
 <p align="center">
-  <img src="images/kishan.svg?v=1787582523" alt="Kishan C Bhandary Portrait" width="985">
+  <img src="assets/portrait.svg?v=1787582900" alt="Kishan C Bhandary Portrait" width="985">
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg?v=1787582523">
-    <source media="(prefers-color-scheme: light)" srcset="light_mode.svg?v=1787582523">
-    <img alt="Kishan Bhandary Profile Card" src="dark_mode.svg?v=1787582523" width="985" height="530">
-  </picture>
+  <img src="images/kishan.svg?v=1787582900" alt="Kishan C Bhandary ASCII Art" width="985">
 </p>
 
 ---

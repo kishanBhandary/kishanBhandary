@@ -5,7 +5,7 @@ from PIL import Image, ImageEnhance
 
 # 1. Image Preprocessing & ASCII Art Generation
 def generate_ascii_art():
-    img_path = "images/kishan-removebg-preview.png"
+    img_path = "images/kishan.png"
     if not os.path.exists(img_path):
         print(f"Error: {img_path} not found.")
         sys.exit(1)
@@ -21,10 +21,7 @@ def generate_ascii_art():
     else:
         img_gray = img.convert("L")
         
-    # Crop tight to the face (centered on horizontal axis 246)
-    # Width: 300px, Height: 310px
-    crop_box = (96, 44, 396, 354)
-    img_cropped = img_gray.crop(crop_box)
+    img_cropped = img_gray
     
     # Lift shadows using gamma correction (gamma = 0.6)
     gamma = 0.6
@@ -186,13 +183,49 @@ def main():
     print("Generating README.md...")
     import time
     version = int(time.time())
-    readme_content = f"""<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg?v={version}">
-  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg?v={version}">
-  <img alt="Kishan Bhandary Profile Card" src="dark_mode.svg?v={version}" width="985" height="530">
-</picture>
+    readme_content = f"""<p align="center">
+  <img src="images/kishan.svg?v={version}" alt="Kishan C Bhandary Portrait" width="985">
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg?v={version}">
+    <source media="(prefers-color-scheme: light)" srcset="light_mode.svg?v={version}">
+    <img alt="Kishan Bhandary Profile Card" src="dark_mode.svg?v={version}" width="985" height="530">
+  </picture>
+</p>
 
 ---
+
+<h3 align="center"><i>Social Media Handles</i></h3>
+
+<table align="center">
+<tr>
+    <td align="center" width="60">
+        <a href="https://www.instagram.com/">
+            <img src="https://cdn-icons-png.flaticon.com/512/1409/1409946.png" width="60" alt="Instagram">
+        </a>
+    </td>
+    <td align="center" width="60">
+        <a href="https://www.linkedin.com/in/kishan-c-bhandary-476375297/">
+            <img src="https://cdn-icons-png.flaticon.com/512/1409/1409945.png" width="60" alt="LinkedIn">
+        </a>
+    </td>
+    <td align="center" width="60">
+        <a href="https://kishanbhandary.me">
+            <img src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png" width="60" alt="Portfolio">
+        </a>
+    </td>
+</tr>
+</table>
+
+## About Me 
+
+📍 Based in Mangalore, I’m currently pursuing my degree in Information Science at AJ Institute of Engineering and Technology. I’m an enthusiastic learner with a strong passion for technology, especially in the areas of web development and software engineerin.
+
+I’m constantly exploring new tools, frameworks, and technologies to enhance my skills and contribute to impactful projects. Whether it’s building efficient backend systems or crafting intuitive front-end interfaces, I enjoy turning ideas into real-world solutions. 
+
+[![An image of @kishanbhandary's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/kishanbhandary)](https://holopin.io/@kishanbhandary)
 """
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(readme_content)

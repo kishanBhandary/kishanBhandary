@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/portrait.svg?v=1787583353" alt="Kishan C Bhandary Portrait" width="985">
+  <img src="assets/portrait.svg?v=1787583353" alt="Kishan C Bhandary Portrait" width="1100">
 </p>
 
 <p align="center">

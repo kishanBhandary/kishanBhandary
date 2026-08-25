@@ -1,14 +1,16 @@
 <p align="center">
-  <img src="assets/portrait.svg?v=1787583353" alt="Kishan C Bhandary Portrait" width="1100">
+  <img src="assets/portrait.svg?v=1787649864" alt="Kishan C Bhandary Portrait" width="1200">
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg?v=1787583353">
-    <source media="(prefers-color-scheme: light)" srcset="light_mode.svg?v=1787583353">
-    <img alt="Kishan Bhandary Profile Card" src="dark_mode.svg?v=1787583353" width="985" height="530">
+    <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg?v=1787649864">
+    <source media="(prefers-color-scheme: light)" srcset="light_mode.svg?v=1787649864">
+    <img alt="Kishan Bhandary Profile Card" src="dark_mode.svg?v=1787649864" width="985" height="530">
   </picture>
 </p>
+
+---
 
 <h3 align="center"><i>Social Media Handles</i></h3>
 

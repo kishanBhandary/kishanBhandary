@@ -4,49 +4,139 @@ import sys
 from PIL import Image, ImageEnhance
 
 # 1. Image Preprocessing & ASCII Art Generation
-def generate_ascii_art():
+def generate_animated_portrait_assets():
     img_path = "images/kishan.png"
     if not os.path.exists(img_path):
         print(f"Error: {img_path} not found.")
         sys.exit(1)
         
     img = Image.open(img_path)
-    
-    # Composite on white background for transparency
-    if img.mode in ('RGBA', 'LA') or (img.mode == 'P' and 'transparency' in img.info):
-        bg = Image.new("RGBA", img.size, (255, 255, 255, 255))
-        img_rgba = img.convert("RGBA")
-        bg.paste(img_rgba, (0, 0), img_rgba)
-        img_gray = bg.convert("L")
-    else:
-        img_gray = img.convert("L")
+    if img.mode != "RGBA":
+        img = img.convert("RGBA")
         
-    img_cropped = img_gray
+    # Resize to 360x360 for embedding
+    embed_img = img.resize((360, 360), Image.Resampling.LANCZOS)
     
-    # Lift shadows using gamma correction (gamma = 0.6)
-    gamma = 0.6
-    lut = [int(255 * (i / 255.0) ** gamma) for i in range(256)]
-    img_lifted = img_cropped.point(lut)
+    # Generate dots grid (45x45)
+    cols, rows = 45, 45
+    cell = 8.0
+    small_img = embed_img.resize((cols, rows), Image.Resampling.LANCZOS)
     
-    # Increase contrast to make facial details pop
-    enhancer = ImageEnhance.Contrast(img_lifted)
-    img_enhanced = enhancer.enhance(1.6)
+    mask = small_img.split()[3]
+    flat = Image.new("RGBA", small_img.size, (0, 0, 0, 255))
+    flat.alpha_composite(small_img)
+    img_rgb = flat.convert("RGB")
+    gray = img_rgb.convert("L")
     
-    # Resize to exact grid for SVG (44 columns, 25 rows)
-    img_resized = img_enhanced.resize((44, 25), Image.Resampling.LANCZOS)
+    gamma = 0.8
+    enhancer = ImageEnhance.Contrast(gray)
+    gray = enhancer.enhance(1.4)
     
-    # Map to safe ASCII ramp
+    gp = gray.load()
+    cp = img_rgb.load()
+    mp = mask.load()
+    
+    max_r = cell * 0.5 * 0.9
+    dots_out = []
+    
+    # Align to the left column: x_offset = 15, y_offset = 85 (vertically centered in 530px card height)
+    x_offset, y_offset = 15, 85
+    
+    for y in range(rows):
+        row_dots = []
+        for x in range(cols):
+            alpha = mp[x, y]
+            if alpha < 50:
+                continue
+            v = gp[x, y] / 255.0
+            v = min(1.0, max(0.0, v ** gamma))
+            v *= (alpha / 255.0)
+            if v < 0.1:
+                continue
+            r = max_r * (v ** 0.85)
+            if r < 0.5:
+                continue
+            cx = x_offset + x * cell + cell / 2
+            cy = y_offset + y * cell + cell / 2
+            cr, cg, cb = cp[x, y]
+            fill = f"#{cr:02x}{cg:02x}{cb:02x}"
+            row_dots.append(
+                f'<circle cx="{cx:.2f}" cy="{cy:.2f}" r="{r:.2f}" fill="{fill}"/>'
+            )
+        if row_dots:
+            dots_out.append((y, "".join(row_dots)))
+            
+    # Generate ASCII portrait markup
     ramp = "@#$8%*o=+-;:. "
-    ascii_rows = []
-    for y in range(img_resized.height):
-        row = ""
-        for x in range(img_resized.width):
-            val = img_resized.getpixel((x, y))
+    ascii_markup_list = []
+    for y in range(rows):
+        for x in range(cols):
+            alpha = mp[x, y]
+            if alpha < 50:
+                continue
+            val = gp[x, y]
             idx = int(val / 256.0 * len(ramp))
-            row += ramp[idx]
-        ascii_rows.append(row)
+            char = ramp[idx]
+            if char == " ":
+                continue
+            cx = x_offset + x * cell + cell / 2
+            cy_text = y_offset + y * cell + cell / 2 + 3.0
+            cr, cg, cb = cp[x, y]
+            fill = f"#{cr:02x}{cg:02x}{cb:02x}"
+            
+            escaped_char = char
+            if char == "<": escaped_char = "&lt;"
+            elif char == ">": escaped_char = "&gt;"
+            elif char == "&": escaped_char = "&amp;"
+            
+            ascii_markup_list.append(
+                f'<tspan x="{cx:.2f}" y="{cy_text:.2f}" fill="{fill}">{escaped_char}</tspan>'
+            )
+    ascii_markup = "".join(ascii_markup_list)
+    
+    dots_markup_list = []
+    for y, row_content in dots_out:
+        dots_markup_list.append(f'<g class="rw r{y}">{row_content}</g>')
+    dots_markup = "\n  ".join(dots_markup_list)
+    
+    # CSS rules for portrait
+    css = []
+    # Dots reveal
+    css.append("""
+@keyframes rv {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.rw {
+  animation: rv 0.20s ease-out both;
+}""")
+    for y in range(rows):
+        css.append(f".r{y} {{ animation-delay: {y * 0.020:.3f}s; }}")
         
-    return ascii_rows
+    # Dots fade out
+    css.append("""
+@keyframes fOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+.dots-group {
+  animation: fOut 1.0s ease-in-out forwards;
+  animation-delay: 1.5s;
+}""")
+    
+    # Clear image fade in
+    css.append("""
+@keyframes fIn {
+  from { opacity: 0; filter: blur(8px); }
+  to { opacity: 1; filter: blur(0); }
+}
+.clear-img {
+  animation: fIn 1.2s ease-out forwards;
+  animation-delay: 1.5s;
+  opacity: 0;
+}""")
+
+    return dots_markup, ascii_markup, "".join(css)
 
 # Helper function to generate dotted leaders alignment
 def get_leader_line(key, value, total_cols=32):
@@ -60,7 +150,7 @@ def get_leader_line(key, value, total_cols=32):
     # Format with SVG tspans
     return f'<tspan class="cc">. </tspan><tspan class="key">{key}</tspan>:<tspan class="cc"> {dots} </tspan><tspan class="value">{value}</tspan>'
 
-def generate_svg(mode, ascii_rows):
+def generate_svg(mode, dots_markup, ascii_markup, portrait_css):
     if mode == "dark":
         bg_color = "#161b22"
         text_color = "#c9d1d9"
@@ -75,12 +165,6 @@ def generate_svg(mode, ascii_rows):
         value_color = "#0a3069"
         dots_color = "#c2cfde"
         cursor_color = "#2da44e"
-        
-    # Build ASCII tspans (on the left column, x=15)
-    ascii_tspans = []
-    for i, row in enumerate(ascii_rows):
-        y_pos = 30 + i * 20
-        ascii_tspans.append(f'<tspan x="15" y="{y_pos}">{row}</tspan>')
         
     # Build Info tspans (on the right column, x=390)
     info_lines = [
@@ -154,11 +238,20 @@ def generate_svg(mode, ascii_rows):
   50% {{ opacity: 0; }}
 }}
 text, tspan {{ white-space: pre; }}
+{portrait_css}
 </style>
 <rect width="985px" height="530px" fill="{bg_color}" rx="15"/>
-<text x="15" y="30" fill="{text_color}" class="ascii">
-{chr(10).join(ascii_tspans)}
+
+<!-- ASCII Portrait -->
+<text class="clear-img" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10px" text-anchor="middle" font-weight="900">
+  {ascii_markup}
 </text>
+
+<!-- Dots Group -->
+<g class="dots-group">
+  {dots_markup}
+</g>
+
 <text x="390" y="30" fill="{text_color}">
 {chr(10).join(info_lines)}
 </text>
@@ -167,16 +260,16 @@ text, tspan {{ white-space: pre; }}
     return svg_content
 
 def main():
-    print("Generating ASCII self-portrait...")
-    ascii_rows = generate_ascii_art()
+    print("Generating animated portrait assets...")
+    dots_markup, ascii_markup, portrait_css = generate_animated_portrait_assets()
     
     print("Generating dark_mode.svg...")
-    dark_svg = generate_svg("dark", ascii_rows)
+    dark_svg = generate_svg("dark", dots_markup, ascii_markup, portrait_css)
     with open("dark_mode.svg", "w", encoding="utf-8") as f:
         f.write(dark_svg)
         
     print("Generating light_mode.svg...")
-    light_svg = generate_svg("light", ascii_rows)
+    light_svg = generate_svg("light", dots_markup, ascii_markup, portrait_css)
     with open("light_mode.svg", "w", encoding="utf-8") as f:
         f.write(light_svg)
         
@@ -184,11 +277,15 @@ def main():
     import time
     version = int(time.time())
     readme_content = f"""<p align="center">
-  <img src="assets/portrait.svg?v={version}" alt="Kishan C Bhandary Portrait" width="985">
+  <img src="assets/portrait.svg?v={version}" alt="Kishan C Bhandary Portrait" width="1200">
 </p>
 
 <p align="center">
-  <img src="images/kishan.svg?v={version}" alt="Kishan C Bhandary ASCII Art" width="985">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg?v={version}">
+    <source media="(prefers-color-scheme: light)" srcset="light_mode.svg?v={version}">
+    <img alt="Kishan Bhandary Profile Card" src="dark_mode.svg?v={version}" width="985" height="530">
+  </picture>
 </p>
 
 ---

@@ -18,12 +18,6 @@ def main():
     # Resize to 360x360 for embedding
     embed_img = img.resize((360, 360), Image.Resampling.LANCZOS)
     
-    # Get base64 URI
-    buffered = io.BytesIO()
-    embed_img.save(buffered, format="PNG")
-    img_str = base64.b64encode(buffered.getvalue()).decode("utf-8")
-    base64_uri = f"data:image/png;base64,{img_str}"
-    
     # Generate dots grid (45x45)
     cols, rows = 45, 45
     cell = 8.0
@@ -72,6 +66,34 @@ def main():
             )
         if row_dots:
             dots_out.append((y, "".join(row_dots)))
+            
+    # Generate ASCII portrait markup
+    ramp = "@#$8%*o=+-;:. "
+    ascii_markup_list = []
+    for y in range(rows):
+        for x in range(cols):
+            alpha = mp[x, y]
+            if alpha < 50:
+                continue
+            val = gp[x, y]
+            idx = int(val / 256.0 * len(ramp))
+            char = ramp[idx]
+            if char == " ":
+                continue
+            cx = x_offset + x * cell + cell / 2
+            cy_text = y_offset + y * cell + cell / 2 + 3.0
+            cr, cg, cb = cp[x, y]
+            fill = f"#{cr:02x}{cg:02x}{cb:02x}"
+            
+            escaped_char = char
+            if char == "<": escaped_char = "&lt;"
+            elif char == ">": escaped_char = "&gt;"
+            elif char == "&": escaped_char = "&amp;"
+            
+            ascii_markup_list.append(
+                f'<tspan x="{cx:.2f}" y="{cy_text:.2f}" fill="{fill}">{escaped_char}</tspan>'
+            )
+    ascii_markup = "".join(ascii_markup_list)
             
     # CSS rules
     css = []
@@ -193,8 +215,10 @@ def main():
     svg_content = f"""<?xml version='1.0' encoding='UTF-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" width="985px" height="530px" viewBox="0 0 985 530">
 {style_block}
-<!-- Clear Image -->
-<image class="clear-img" href="{base64_uri}" x="{x_offset}" y="{y_offset}" width="360" height="360" preserveAspectRatio="xMidYMid slice"/>
+<!-- ASCII Portrait -->
+<text class="clear-img" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10px" text-anchor="middle" font-weight="900">
+  {ascii_markup}
+</text>
 
 <!-- Dots Group -->
 <g class="dots-group">

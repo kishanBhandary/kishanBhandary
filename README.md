@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="assets/portrait.svg?v=1787649864" alt="Kishan C Bhandary Portrait" width="1200">
-</p>
 
 <p align="center">
   <picture>

@@ -9,6 +9,8 @@
 
 ---
 
+[![An image of @kishanbhandary's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/kishanbhandary)](https://holopin.io/@kishanbhandary)
+
 <h3 align="center"><i>Social Media Handles</i></h3>
 
 <table align="center">
@@ -37,4 +39,3 @@
 
 I’m constantly exploring new tools, frameworks, and technologies to enhance my skills and contribute to impactful projects. Whether it’s building efficient backend systems or crafting intuitive front-end interfaces, I enjoy turning ideas into real-world solutions. 
 
-[![An image of @kishanbhandary's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/kishanbhandary)](https://holopin.io/@kishanbhandary)
